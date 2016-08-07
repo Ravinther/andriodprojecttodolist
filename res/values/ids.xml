@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="actionbar">false</item>
+    <item type="id" name="title_tv">false</item>
+    <item type="id" name="listView">false</item>
+    <item type="id" name="adView">false</item>
+    <item type="id" name="listemptyview">false</item>
+    <item type="id" name="appname_tv">false</item>
+    <item type="id" name="nolist_tv">false</item>
+    <item type="id" name="addlist_tv">false</item>
+    <item type="id" name="addlist_btn">false</item>
+    <item type="id" name="textView">false</item>
+    <item type="id" name="titleEdittext">false</item>
+    <item type="id" name="detailEdittext">false</item>
+    <item type="id" name="btncancel">false</item>
+    <item type="id" name="btnsave">false</item>
+    <item type="id" name="date_tv">false</item>
+    <item type="id" name="time_tv">false</item>
+    <item type="id" name="sort_iv">false</item>
+    <item type="id" name="check_iv">false</item>
+    <item type="id" name="alarm_iv">false</item>
+    <item type="id" name="trash_iv">false</item>
+    <item type="id" name="detail_tv">false</item>
+    <item type="id" name="action_settings">false</item>
+</resources>

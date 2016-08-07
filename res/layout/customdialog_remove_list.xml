@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:paddingBottom="15dp" android:layout_width="-1" android:layout_height="-1"
+    <LinearLayout android:gravity="11" android:background="@color/color1" android:padding="10dp" android:layout_width="-1" android:layout_height="50dp">
+        <TextView android:textSize="20sp" android:textColor="@color/color4" android:id="@id/textView" android:layout_width="-2" android:layout_height="-2" android:text="Are you sure to delete ?" />
+    </LinearLayout>
+    <View android:background="#c3c2c2" android:layout_width="-1" android:layout_height="0.5dp" />
+    <LinearLayout android:gravity="11" android:orientation="0" android:layout_width="-1" android:layout_height="60dp" android:layout_marginTop="30dp" android:weightSum="2.0">
+        <Button android:textSize="18sp" android:textColor="@color/color4" android:gravity="11" android:id="@id/btncancel" android:background="@color/color1" android:layout_width="0dp" android:layout_height="-1" android:layout_marginLeft="15dp" android:layout_marginTop="5dp" android:layout_marginRight="4dp" android:layout_marginBottom="5dp" android:text="NO" android:layout_weight="1.0" />
+        <Button android:textSize="18sp" android:textColor="@color/color6" android:gravity="11" android:id="@id/btnsave" android:background="#9ed41c" android:layout_width="0dp" android:layout_height="-1" android:layout_marginLeft="4dp" android:layout_marginTop="5dp" android:layout_marginRight="15dp" android:layout_marginBottom="5dp" android:text="YES" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

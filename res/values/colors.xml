@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="common_signin_btn_dark_text_default">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_pressed">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_disabled">#ffaaaaaa</color>
+    <color name="common_signin_btn_dark_text_focused">@android:color/white</color>
+    <color name="common_signin_btn_light_text_default">#ff737373</color>
+    <color name="common_signin_btn_light_text_pressed">@android:color/white</color>
+    <color name="common_signin_btn_light_text_disabled">#ffaaaaaa</color>
+    <color name="common_signin_btn_light_text_focused">#ff737373</color>
+    <color name="common_signin_btn_default_background">#ffdd4b39</color>
+    <color name="common_action_bar_splitter">#ffd2d2d2</color>
+    <color name="background_color">#ffebe4da</color>
+    <color name="color1">#ffd4391c</color>
+    <color name="color2">#ffffb647</color>
+    <color name="color3">#ffc73017</color>
+    <color name="color4">#ffffffff</color>
+    <color name="color5">#ff9ed41c</color>
+    <color name="color6">#ff4c6b03</color>
+    <color name="color7">#ff282828</color>
+</resources>

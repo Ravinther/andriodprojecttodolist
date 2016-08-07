@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ads:background="@color/background_color" ads:layout_width="-1" ads:layout_height="-1"
+    <RelativeLayout ads:id="@id/actionbar" ads:background="@color/color1" ads:layout_width="-1" ads:layout_height="50dp" ads:layout_alignParentTop="true">
+        <ImageView ads:layout_width="30dp" ads:layout_height="30dp" ads:layout_marginLeft="20dp" ads:src="@drawable/ic_add" ads:layout_alignParentLeft="true" ads:layout_centerVertical="true" ads:onClick="addNewList" />
+        <TextView ads:textSize="24sp" ads:textColor="@color/color2" ads:id="@id/title_tv" ads:layout_width="-2" ads:layout_height="-2" ads:text="To Do Lists" ads:layout_centerInParent="true" />
+    </RelativeLayout>
+    <ListView ads:gravity="11" ads:id="@id/listView" ads:visibility="2" ads:layout_width="-1" ads:layout_height="-1" ads:layout_below="@id/actionbar" />
+    <com.google.android.gms.ads.AdView ads:id="@id/adView" ads:layout_width="-2" ads:layout_height="-2" ads:layout_marginBottom="5dp" ads:layout_alignParentBottom="true" ads:layout_centerHorizontal="true" ads:adSize="BANNER" ads:adUnitId="@string/admob_banner_id" />
+    <LinearLayout ads:gravity="11" ads:orientation="1" ads:id="@id/listemptyview" ads:layout_width="-1" ads:layout_height="-1" ads:layout_above="@id/adView" ads:layout_below="@id/actionbar">
+        <ImageView ads:layout_width="125dp" ads:layout_height="124dp" ads:src="@drawable/icon" ads:layout_centerInParent="true" />
+        <TextView ads:textSize="44sp" ads:textColor="@color/color3" ads:id="@id/appname_tv" ads:layout_width="-2" ads:layout_height="-2" ads:layout_marginTop="5dp" ads:text="@string/first_screen_logotext" />
+        <TextView ads:textSize="24sp" ads:textColor="@color/color3" ads:gravity="11" ads:id="@id/nolist_tv" ads:layout_width="-2" ads:layout_height="-2" ads:layout_marginTop="10dp" ads:text="@string/first_screen_additemtext1" />
+        <TextView ads:textSize="24sp" ads:textColor="@color/color3" ads:gravity="11" ads:id="@id/addlist_tv" ads:layout_width="-2" ads:layout_height="-2" ads:layout_marginTop="5dp" ads:text="@string/first_screen_additemtext2" />
+        <Button ads:textSize="22sp" ads:textColor="@drawable/textcolor" ads:id="@id/addlist_btn" ads:background="@drawable/firstscreenbuttonselector" ads:layout_width="-1" ads:layout_height="60dp" ads:layout_marginLeft="30dp" ads:layout_marginTop="40dp" ads:layout_marginRight="30dp" ads:text="@string/first_screen_buttontext" ads:onClick="addNewList" />
+    </LinearLayout>
+</RelativeLayout>
